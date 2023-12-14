@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Signin from "./components/signup/signin";
+import { LoginCard } from "./components/signup/signin";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Signin />
+      <LoginCard />
     </div>
   );
 }
